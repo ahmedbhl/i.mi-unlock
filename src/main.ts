@@ -11,7 +11,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
   <header class="bg-light">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Your Logo</a>
+      <a class="navbar-brand" href="#">
+        <img src="assets/mi.png" alt="Logo">
+      </a>
     </nav>
   </div>
 </header>
@@ -31,6 +33,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
     </div>
   </div>
 </div>
+
 
   `,
 })
